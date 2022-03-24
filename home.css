@@ -40,15 +40,15 @@ ul {
 .home_h1 {
     text-align: center;
     font-weight: bold;
-	letter-spacing: 4px;
+	  letter-spacing: 4px;
     justify-content: center;
     margin-top: 10%;
     align-items: center;
     display: flex;
     font-size: 132px;
     background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
         
     
 }
