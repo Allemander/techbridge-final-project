@@ -1,0 +1,72 @@
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+  }
+tr:nth-child(even) {background-color: #fdf5df;
+  }
+tr:nth-child(odd) {background-color: #aaa1a1;
+  }
+body {
+    background-color: #fdf5df;
+  }
+h1 {
+    padding-top: 50px;
+    font-size: 50px;
+    text-align: center;
+    color: #333;
+  }
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #5ebec4;
+    padding-bottom: 50px;
+    border: 5px ridge #f92c85;
+}
+table {
+    width: 100%;
+    margin-top: 25px;
+    
+}
+#addBook {
+    color: #333;
+    background-color: #5ebec4;
+    border: 5px ridge #f92c85;
+    margin-top: 20px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+#myInput {
+    margin-top: 20px;
+    width: 20%;
+    border: 3px ridge #f92c85;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+	background-color: #111111;
+  }

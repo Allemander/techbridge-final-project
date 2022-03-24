@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="inventory.css">
+    
+</head>
+<body>
+    <div class="header">
+        <h1>Bookstory Inventory</h1>
+        <ul>
+            <li><a href="index.html">LOGOUT</a></li>
+            <li><a href="emphome.html">HOME</a></li>
+            <li><a href="empInventory.html">INVENTORY</a></li>
+       </ul>
+        </div>
+
+        <div class="container">
+            
+            <input type="text" id="myInput" onkeyup='tableSearch()' placeholder="Search Title">
+            
+            <table class="table" id="myTable" data-filter-control="true" data-show-search-clear-button="true">
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Price</th>
+                    <th>Year</th>
+                    <th>Condition</th>
+                    <th>Genre</th>
+                </tr>
+                <tr>
+                    <td>The Hobbit</td>
+                    <td>J.R.R. Tolkien</td>
+                    <td>$29.99</td>
+                    <td>1937</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>Charlotte's Web</td>
+                    <td>E.B. White</td>
+                    <td>$21.99</td>
+                    <td>1952</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>War & Peace</td>
+                    <td>Leo Tolstoy</td>
+                    <td>$32.99</td>
+                    <td>1869</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>The Count of Monte Cristo</td>
+                    <td>Alexandre Dumas</td>
+                    <td>$15.99</td>
+                    <td>1844</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>The Great Gatsby</td>
+                    <td>F. Scott Fitzgerald</td>
+                    <td>$39.99</td>
+                    <td>1925</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>Dusk of Dawn</td>
+                    <td>W.E.B. Dubois</td>
+                    <td>$19.99</td>
+                    <td>1940</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>Dune</td>
+                    <td>Frank Herbert</td>
+                    <td>$21.99</td>
+                    <td>1964</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>The Strength of Gideon</td>
+                    <td>Paul Laurence Dunbar</td>
+                    <td>$29.99</td>
+                    <td>1900</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>Where the Sidewalk Ends</td>
+                    <td>Shel Silverstein</td>
+                    <td>$17.99</td>
+                    <td>1974</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>Roots</td>
+                    <td>Alex Haley</td>
+                    <td>$24.99</td>
+                    <td>1976</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>A Tale of Two Cities</td>
+                    <td>Charles Dickens</td>
+                    <td>$24.99</td>
+                    <td>1859</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>The Grapes of Wrath</td>
+                    <td>John Steinbeck</td>
+                    <td>$21.99</td>
+                    <td>1936</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>Animal Farm</td>
+                    <td>George Orwell</td>
+                    <td>$32.99</td>
+                    <td>1945</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>Gone With the Wind</td>
+                    <td>Margaret Mitchell</td>
+                    <td>$15.99</td>
+                    <td>1936</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>Ulysses</td>
+                    <td>James Joyce</td>
+                    <td>$31.99</td>
+                    <td>1922</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>The Lord of the Flies</td>
+                    <td>William Golding</td>
+                    <td>$19.99</td>
+                    <td>1954</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>To Kill a Mockingbird</td>
+                    <td>Harper Lee</td>
+                    <td>$21.99</td>
+                    <td>1960</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>The Sun Also Rises</td>
+                    <td>Ernest Hemingway</td>
+                    <td>$29.99</td>
+                    <td>1926</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>On the Road</td>
+                    <td>Jack Kerouac</td>
+                    <td>$17.99</td>
+                    <td>1957</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+                <tr>
+                    <td>Tropic of Cancer</td>
+                    <td>Henry Miller</td>
+                    <td>$24.99</td>
+                    <td>1934</td>
+                    <td>Fair</td>
+                    <td>Genre</td>
+                </tr>
+            </table>
+           
+            </div>
+            
+
+        <div id="addBook">
+            <h2>Add New Book</h2>
+        Title: <input type="text" name="title" id="title" /><br/><br/>
+        Author: <input type="text" name="author" id="author" /><br/><br/>
+        Price: <input type="text" name="price" id="price" /><br/><br/>
+        Year: <input type="text" name="year" id="year" /><br/><br/>
+        Condition: <input type="text" name="condition" id="condition" /><br/><br/>
+        Genre: <input type="text" name="genre" id="genre" /><br/><br/>
+        <button onclick="addRow();">Add Book</button><br/><br/>
+        </div>
+    
+    
+    <script>
+    function tableSearch() {
+        let input, filter, table, tr, td , txtValue;
+    
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("myTable");
+        tr = table.getElementsByTagName("tr");
+    
+        for(let i = 0; i < tr.length; i++){
+            td = tr[i].getElementsByTagName("td")[0];
+            if(td) {
+                txtValue = td.textContent || td.innerText;
+                if(txtValue.toUpperCase().indexOf(filter) > -1){
+                    tr[i].style.display = "";
+                }
+                else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+
+    function addRow() {
+                var title = document.getElementById('title').value;
+                var author = document.getElementById('author').value;
+                var price = document.getElementById('price').value;
+                var year = document.getElementById('year').value;
+                var condition = document.getElementById('condition').value;
+                var genre = document.getElementById('genre').value;
+                  
+                var table = document.getElementsByTagName('table')[0];
+                  
+                var newRow = table.insertRow(1);
+                  
+                var cel1 = newRow.insertCell(0);
+                var cel2 = newRow.insertCell(1);
+                var cel3 = newRow.insertCell(2);
+                var cel4 = newRow.insertCell(3);
+                var cel5 = newRow.insertCell(4);
+                var cel6 = newRow.insertCell(5);
+                  
+                cel1.innerHTML = title;
+                cel2.innerHTML = author;
+                cel3.innerHTML = price;
+                cel4.innerHTML = year;
+                cel5.innerHTML = condition;
+                cel6.innerHTML = genre;
+            }
+
+
+
+
+</script>
+
+</body>
+
+</html>
